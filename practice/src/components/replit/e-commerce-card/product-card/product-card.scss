@@ -1,0 +1,36 @@
+.crd {
+  margin-top: 1rem;
+  text-align: center;
+  box-shadow: 0 0 1px gray ;
+  border:none;
+
+  .discount{
+    position: absolute;
+    background-color: green;
+    color: aliceblue;
+    font-weight: 500;
+    margin:0.3rem;
+    padding: 0.1rem 0.3rem;
+    border-radius:0.5rem;
+  }
+
+  .crd-body {
+    .title-rate {
+      color: green;
+    }
+    .text-title{
+        font-size:1.3rem;
+        font-weight: 500;
+    }
+    .title-price {
+      .price {
+        text-decoration: line-through;
+        opacity: 0.5
+      }
+
+      .discountprice {
+        color: green;
+      }
+    }
+  }
+}
